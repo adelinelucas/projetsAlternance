@@ -1,0 +1,60 @@
+/* RESET */
+*, 
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea {
+  font: inherit;
+
+}
+
+h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* FORM */ 
+form fieldset {
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+form fieldset input[type="text"],
+form fieldset input[type="tel"],
+form fieldset input[type="mail"]{
+    width: 100%;
+    border:none;
+    outline:none;
+}
+
+form fieldset input[type="text"]::placeholder, 
+form fieldset input[type="tel"]::placeholder,
+form fieldset input[type="mail"]::placeholder,
+.form-select {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+form fieldset input[type="checkbox"]{
+    margin-right: 0.5rem;
+} 
+
+form input[type="submit"]{
+    background-color: #ffc107;
+    font-size: 1rem;
+    color:with; 
+    margin: 0.5rem auto;
+    border: #8a6804;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+}

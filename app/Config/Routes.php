@@ -30,7 +30,7 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/helperForm', 'HelperFormController::index');
+$routes->get('/helper_form', 'HelperFormController::index');
 $routes->get('/landingsGenerator', 'Home::landingGenerator');
 $routes->get('/offresGenerator', 'Home::offreGenerator');
 /*

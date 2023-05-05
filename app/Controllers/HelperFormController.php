@@ -6,6 +6,9 @@ class HelperFormController extends BaseController
 {
     public function index()
     {
-        return view('helperForm');
+
+        return view('helperForm/index');
     }
+
+
 }
