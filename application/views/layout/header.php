@@ -9,7 +9,7 @@
     <?php 
     if(isset($css) && !is_null($css)){
         foreach($css as $link) : 
-           echo "<link rel='stylesheet' href='". $link."')'>";
+           echo "<link rel='stylesheet' href='". $link."'>";
         endforeach;
     }
     ?>
@@ -36,7 +36,7 @@
 				<a class="nav-link" href="#">Outil générateur de landings</a>
 				</li>
 				<li class="nav-item">
-				<a class="nav-link" href="#">Outil générateur d'offres</a>
+				<a class="nav-link" href="<?= base_url('/outilOffres'); ?>">Outil générateur d'offres</a>
 				</li>
 				<li class="nav-item">
 				<a class="nav-link" href="#">Outil keys datas</a>

@@ -55,3 +55,10 @@ $route['translate_uri_dashes'] = FALSE;
 
 // fromHelper Routes
 $route['formHelper'] = 'formHelper/FormHelperController/index';
+
+// outilOffre Routes
+$route['outilOffres'] = 'outilOffres/OutilOffresController/dashboard';
+$route['outilOffres/checkNameIsUnique'] = 'outilOffres/OutilOffresController/checkNameIsUnique';
+$route['outilOffres/add'] = 'outilOffres/OutilOffresController/add';
+$route['outilOffres/update'] = 'outilOffres/OutilOffresController/update';
+$route['outilOffres/delete'] = 'outilOffres/OutilOffresController/delete';
